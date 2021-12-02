@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elskom Official Website</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+
+<h1>Elskom Official Website</h1>
+
+<p>To get the current runtime version visit: /runtime/version.txt</p>
+<p>To download the current runtime and reference packages you must first take the latest version from that file, and use it to download the following gzip packages:
+ - /runtime/packages/elskom-runtime-{version}-any.tar.gz
+ - /runtime/packages/elskom-targeting-pack-{version}-any.tar.gz</p>
+
+<p>Note: All of this should be done from the installer global tool that is published to nuget.org.</p>
+
+<p>To properly install the runtime and reference packages one should use the global install tool published to nuget.org to install the entire workload.
+To be able to do that one should do <code>dotnet tool install -g elskom.net.check</code>.
+After that invoke <code>elskom-check</code> or <code>elskom-check install</code> to install, <code>elskom-check update</code> to update,
+or <code>elskom-check uninstall</code> to uninstall the workload.</p>
+
+</body>
+</html>
